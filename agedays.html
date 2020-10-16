@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="agedays.css" />
+    <title>Age in days</title>
+  </head>
+  <body class="grid">
+    <header>
+      <h5>Your age in days:</h5>
+      <div id="results">
+        <h3></h3>
+      </div>
+    </header>
+    <section>
+      <button class="click-me" onclick="ageInDays()">Click me</button>
+      <button class="reset" onclick="reset()">Reset</button>
+    </section>
+    <footer>
+      <p>
+        Made with <img src="heart.png" alt="heart" class="heart" />
+        <img src="heart_24.png" alt="heart" class="heart_24" /> by Jelena
+      </p>
+    </footer>
+    <script src="agedays.js"></script>
+  </body>
+</html>
